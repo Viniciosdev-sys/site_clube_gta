@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1, 
+section h2,
+.contact-methods h3,
+form button{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.818);
+}
+section p, li a {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.604);
+}
+
+
+header{
+
+    padding: 50px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+header .container img{
+    height: 100px;
+    display: inline;
+    justify-content: space-between;
+}
+
+header nav li {
+    display:inline;
+    margin-left: 26px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foto-sobre{
+    height: 400px;
+    margin-right: 32px;
+}
+section h2{
+    margin-bottom: 25px;
+}
+section p{
+    margin-bottom: 8px;
+}
+
+.brands-list img{
+    height: 20px;
+}
+.brands-list li{
+    display:inline;
+}
+section .container{
+    align-items: flex-start;
+}
+section {
+    padding: 25px;
+}
+
+#contact.container{
+    display: block;
+}
+.contact-methods h3{
+    padding: 25px;
+    display: ruby-text;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    margin-right: 100%;
+}
+form input,
+form textarea, 
+form button{
+    display: block;
+    width: 330px;
+    margin-bottom: 13px;
+    padding: 6px;
+    color:rgba(255, 255, 255, 0.604);
+}
+form textarea, form input{
+    margin-right: 100px;
+    resize: none;
+}
+.social-links img{
+    height: 25px;
+
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+form button{
+    background-color:black;
+    color: rgba(255, 255, 255, 0.604);
+    font-weight: 200%;
+    border: none
+}
+form button:hover{
+    background-color: rgba(0, 0, 0, 0.595);
+}
+form textarea{
+    background-color: black
+}
+form input{
+    background-color: black;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px;
+}
+
